@@ -9,6 +9,8 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import ipywidgets as widgets
+from IPython.display import display
 
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
@@ -132,14 +134,17 @@ print(df_results.sort_values(by="accuracy", ascending=False).head(10).to_string(
 # ==============================================================
 # 8. Visualisierung (optional)
 # ==============================================================
-plt.figure(figsize=(10,6))
-for model in df_results["model"].unique():
-    data = df_results[df_results["model"] == model]
-    plt.plot(data["train_size_percent"], data["accuracy"], marker="o", label=model)
+
+
+plt.figure(figsize=(8,5))
+
+model_name = "LogisticRegression"  # <-- hier Modellnamen anpassen
+data = df_results[df_results["model"] == model_name]
+
+plt.plot(data["train_size_percent"], data["accuracy"], marker="o", label=model_name)
 plt.xlabel("Trainingsanteil (%)")
 plt.ylabel("Accuracy")
-plt.title("Modellvergleich bei verschiedenen Train/Test-Verhältnissen")
-plt.legend(fontsize="small", ncol=2)
+plt.title(f"Accuracy bei verschiedenen Trainingsgrößen — {model_name}")
+plt.legend()
 plt.grid(True)
-plt.tight_layout()
 plt.show()
