@@ -135,16 +135,25 @@ print(df_results.sort_values(by="accuracy", ascending=False).head(10).to_string(
 # 8. Visualisierung (optional)
 # ==============================================================
 
+plt.figure(figsize=(10, 6))
 
-plt.figure(figsize=(8,5))
+# Alle KNN-Modelle auswählen
+knn_data = df_results[df_results["model"].str.startswith("KNN_k=")]
 
-model_name = "LogisticRegression"  # <-- hier Modellnamen anpassen
-data = df_results[df_results["model"] == model_name]
+# Jede KNN-Variante (k=1,3,5,7,9) separat plotten
+for k in sorted(knn_data["model"].unique()):
+    data_k = knn_data[knn_data["model"] == k]
+    plt.plot(
+        data_k["train_size_percent"],
+        data_k["accuracy"],
+        marker="o",
+        label=k
+    )
 
-plt.plot(data["train_size_percent"], data["accuracy"], marker="o", label=model_name)
 plt.xlabel("Trainingsanteil (%)")
 plt.ylabel("Accuracy")
-plt.title(f"Accuracy bei verschiedenen Trainingsgrößen — {model_name}")
-plt.legend()
+plt.title("KNN-Modelle — Accuracy bei verschiedenen Trainingsgrößen")
+plt.legend(title="Modell (k-Wert)")
 plt.grid(True)
+plt.tight_layout()
 plt.show()
