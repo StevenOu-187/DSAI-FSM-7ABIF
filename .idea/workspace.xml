@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="eea7c595-aabc-4bf9-9550-a2d81cb9b3d4" name="Changes" comment="" />
+=======
+    <list default="true" id="eea7c595-aabc-4bf9-9550-a2d81cb9b3d4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,8 +65,12 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
+<<<<<<< Updated upstream
         <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-PY-243.23654.177" />
         <option value="bundled-python-sdk-91d3a02ef49d-43b77aa2d136-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.23654.177" />
+=======
+        <option value="bundled-python-sdk-4e2b1448bda8-9a97661f3031-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.27397.106" />
+>>>>>>> Stashed changes
       </set>
     </attachedChunks>
   </component>
@@ -82,7 +92,11 @@
       <workItem from="1762453452798" duration="121000" />
       <workItem from="1762454301274" duration="1052000" />
       <workItem from="1764877813119" duration="8000" />
+<<<<<<< Updated upstream
       <workItem from="1764879544106" duration="206000" />
+=======
+      <workItem from="1765902407454" duration="34000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
