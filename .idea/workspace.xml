@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eea7c595-aabc-4bf9-9550-a2d81cb9b3d4" name="Changes" comment="" />
+    <list default="true" id="eea7c595-aabc-4bf9-9550-a2d81cb9b3d4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/DSAI-FSM-7ABIF.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DSAI-FSM-7ABIF.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aufgabe2/Iris_Bayes_kMeans.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgabe2/Iris_Bayes_kMeans.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +41,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Aufgabe1.executor": "Run",
+    "Python.Iris_Bayes_kMeans.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "dart.analysis.tool.window.visible": "false",
@@ -83,13 +89,26 @@
       <workItem from="1762454301274" duration="1052000" />
       <workItem from="1764877813119" duration="8000" />
       <workItem from="1764879544106" duration="206000" />
+      <workItem from="1765887125676" duration="3292000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/workspace_xml$Aufgabe1.coverage" NAME="Aufgabe1 Coverage Results" MODIFIED="1762447112309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aufgabe1" />
+    <SUITE FILE_PATH="coverage/workspace_xml$Iris_Bayes_kMeans.coverage" NAME="Iris_Bayes_kMeans Coverage Results" MODIFIED="1765887644625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aufgabe2" />
   </component>
 </project>
